@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  box-shadow: 10px 10px 20px grey;
+  width: 40vw;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 1px black solid;
+  padding-bottom: 10px;
+}
+.info {
+  line-height: 2;
+}
+button {
+  background: #6fe76f;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px grey;
+  height: 2em;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+button:hover {
+  font-size: 1.4em;
+}
+
+select {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+#others {
+  width: 50%;
+}
