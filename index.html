@@ -15,11 +15,11 @@
 
         <h2>Information about the movie</h2>
         <section class="info">
-          <label for="name">Name of the movie</label>
+          <label for="name">Name of the movie</label> <br />
           <input type="text" name="Movie Name" size="20" placeholder=" e.g Titanic" required /><br />
-          <label for="protagonist">Who plays the lead role?</label>
+          <label for="protagonist">Who plays the lead role?</label> <br />
           <input type="text" name="Protagonist" placeholder=" e.g Leonardo DiCaprio" required /><br />
-          <label for="year">When was the movie made?</label>
+          <label for="year">When was the movie made?</label> <br />
           <input type="text" name="year" placeholder=" e.g 1997" required />
         </section>
 
@@ -36,7 +36,7 @@
             <option value="action">Action movie</option>
           </select>
           <br />
-          <label for="other">Other</label>
+          <label for="other">Other</label> <br />
           <input type="text" name="other" placeholder="e.g Sci-fi" size="40" id="others" />
         </section>
 
@@ -53,14 +53,6 @@
         <button type="submit">Add your movie</button>
       </form>
     </main>
-    <script>
-      document.querySelector("button").addEventListener("click", message);
-      function message() {
-        console.log(alert);
-        alert("The form has been sent.");
-      }
-    </script>
-
     <script src="script.js"></script>
   </body>
 </html>

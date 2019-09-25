@@ -21,8 +21,13 @@ h2 {
   border-bottom: 1px black solid;
   padding-bottom: 10px;
 }
+
 .info {
   line-height: 2;
+}
+
+input {
+  border-radius: 5px;
 }
 button {
   background: #6fe76f;
